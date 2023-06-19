@@ -2,9 +2,9 @@ package builder;
 
 public class RolexBuilder implements WatchBuilder{
     private Watch watch;
-    public RolexBuilder()
+    public RolexBuilder(Watch watch)
     {
-        this.watch=new Watch();
+        this.watch=watch;
     }
     @Override
     public void completeDesign() {
